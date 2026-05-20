@@ -1,12 +1,15 @@
-# C2PA Disclosure Drift MCP
+# C2PA Disclosure Drift
 
-Paid remote MCP for C2PA disclosure policy MCP, structured receipts, audit logs, and reviewer-ready evidence.
+C2PA Disclosure Drift is a hosted remote MCP for C2PA disclosure policy MCP.
 
 Website: https://c2padisclosure.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: C2PA disclosure policy MCP
+Type: MCP
+Default plan: team
 MCP endpoint: https://c2padisclosure.clauxel.com/mcp
 Server card: https://c2padisclosure.clauxel.com/server-card.json
-Docs: https://github.com/clauxel/c2pa-disclosure-drift-mcp
-
-Use case: C2PA disclosure policy MCP with structured receipts.
-Authentication: Bearer token required for production use.
+Registry name: com.clauxel.c2padisclosure/c2padisclosure-mcp
 Tools: check_disclosure_policy, validate_c2pa_status, issue_ai_media_receipt, explain_region_rule, export_disclosure_log
+
+Public boundary: docs-only repository; no production source code or secrets.
